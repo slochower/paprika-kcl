@@ -1,15 +1,16 @@
 name: paprika-kcl
 channels:
   - conda-forge
+  - ambermd
   - omnia
-  - http://ambermd.org/downloads/ambertools/conda/
 dependencies:
   # Base depends
-  - python
+  - python=3.6
   - pip
   - numpy
   - scipy
   - parmed
+  - pymbar
   - ambertools=18
   - pip:
     - git+https://github.com/slochower/paprika/@720187d9f38affd3e091f3dfa21ac9b318dbbdd8
