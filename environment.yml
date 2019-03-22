@@ -11,6 +11,7 @@ dependencies:
   - scipy
   - parmed
   - pymbar
+  - matplotlib
   - ambertools=18
   - pip:
     - git+https://github.com/slochower/paprika/@720187d9f38affd3e091f3dfa21ac9b318dbbdd8
