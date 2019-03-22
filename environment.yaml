@@ -11,3 +11,8 @@ dependencies:
   - scipy
   - parmed
   - ambertools=18
+  - pip:
+    - git+https://github.com/slochower/paprika/@720187d9f38affd3e091f3dfa21ac9b318dbbdd8
+
+# We can either install paprika from conda-forge
+# or specify a commit on GitHub
